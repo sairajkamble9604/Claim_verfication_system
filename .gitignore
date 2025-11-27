@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.db
+*.log
+*.pdf
+*.zip
+venv/
+.venv/
+modelfile/
+skk/
+tempCodeRunnerFile.py

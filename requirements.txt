@@ -1,0 +1,27 @@
+# Core App
+streamlit==1.35.0
+streamlit-tags
+ollama>=0.1.6
+pandas
+sqlalchemy
+plotly
+
+# Audio Processing (Stable CPU Versions)
+torch
+torchvision
+torchaudio
+openai-whisper
+librosa>=0.10.1
+pydub
+
+# Utilities
+reportlab
+langdetect
+googletrans==4.0.0-rc1
+
+# CRITICAL STABILITY FIX
+# We pin numpy to <2.0 to prevent audio library crashes
+numpy<2.0
+
+
+python -m pip install -r requirements.txt
